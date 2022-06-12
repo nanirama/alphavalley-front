@@ -5,7 +5,10 @@ export default function BlogItem() {
     return (
         <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
             <div className="flex-shrink-0">
-                <img className="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="" />
+            <Image
+                 className="h-48 w-full object-cover" 
+                 src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
+            />
             </div>
             <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                 <div className="flex-1">
@@ -21,7 +24,10 @@ export default function BlogItem() {
                     <div className="flex-shrink-0">
                         <a href="#">
                             <span className="sr-only">Roel Aufderehar</span>
-                            <img className="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
+                            <Image
+                                className="h-10 w-10 rounded-full"
+                                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                            />
                         </a>
                     </div>
                     <div className="ml-3">
