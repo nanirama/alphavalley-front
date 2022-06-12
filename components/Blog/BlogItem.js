@@ -7,6 +7,7 @@ export default function BlogItem() {
             <div className="flex-shrink-0">
             <Image
                  className="h-48 w-full object-cover" 
+                 alt="Image 1"
                  src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
             />
             </div>
@@ -25,6 +26,7 @@ export default function BlogItem() {
                         <a href="#">
                             <span className="sr-only">Roel Aufderehar</span>
                             <Image
+                                alt="Image 2"
                                 className="h-10 w-10 rounded-full"
                                 src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                             />
@@ -35,7 +37,7 @@ export default function BlogItem() {
                             <a href="#" className="hover:underline"> Roel Aufderehar </a>
                         </p>
                         <div className="flex space-x-1 text-sm text-gray-500">
-                            <time datetime="2020-03-16"> Mar 16, 2020 </time>
+                            <time dateTime="2020-03-16"> Mar 16, 2020 </time>
                             <span aria-hidden="true"> &middot; </span>
                             <span> 6 min read </span>
                         </div>

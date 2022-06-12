@@ -43,11 +43,11 @@ const Header = () => {
                 width={60}
                 height={60}
             />
-            <img
+            {/* <img
               className="h-8 w-auto sm:h-10"
               src="../assets/logo.png"
               alt=""
-            />
+            /> */}
           </a>
         </div>
         <div className="-mr-2 -my-2 md:hidden">
